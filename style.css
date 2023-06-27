@@ -1,0 +1,45 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-color: #2b2112;
+}
+#playgame{
+    width: 50%;
+    height: 50%;
+    display: grid;
+    background-color: #0000005d;
+    grid-template: repeat(15, 1fr) / repeat(25, 1fr);
+}
+#pacote{
+    background-color: beige;
+}
+#cub{
+    background-color: #244e66;
+}
+#gameover{
+    position: absolute;
+    width: 30%;
+    height: 30%;
+    background-color: #fff5ee46;
+    justify-content: center;
+    display: none;
+    align-items: center;
+    border-radius: 10px;
+    flex-direction: column;
+    gap: 20px;
+    color: white;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+#restart{
+    width: 120px;
+    height: 35px;
+}
